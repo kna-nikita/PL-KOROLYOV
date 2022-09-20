@@ -1,4 +1,4 @@
-import math
+import math # пример № 8
 
 x = float(input())
 y = float(input())
