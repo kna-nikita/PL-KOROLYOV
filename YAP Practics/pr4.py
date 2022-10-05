@@ -18,7 +18,7 @@ for i in range(n):
 print(c)
 
 
-n = int(input()     # пример №5
+n = int(input())     # пример №5
 c = 1
 m = 0
 
