@@ -77,7 +77,7 @@ def v1_n2(matrix):
         matrix[i][max_index] = first
         matrix[i][min_index] = last
     
-    return str(' '.join(map(str, matrix)))
+    return matrix
     
 def v2_n2(matrix):
     row = len(matrix)
@@ -99,12 +99,12 @@ def v2_n2(matrix):
 
     return matrix
 
-a = create_matrix(3, 3, -10, 10)
-print_matrix(a) 
-write_matrix('pr9\\1_КоролёвНикита_УБ-23_vvod_вариант2№2.txt', a)  
+# a = create_matrix(3, 3, -10, 10)
+# print_matrix(a) 
+# write_matrix('pr9\\1_КоролёвНикита_УБ-23_vvod_вариант2№2.txt', a)  
 
-# b = read_matrix('pr9\\1_КоролёвНикита_УБ-23_vvod_вариант1№2.txt')
-# print_matrix(b)
-# t = v2_n2(b)
+b = read_matrix('pr9\\1_КоролёвНикита_УБ-23_vvod_вариант1№2.txt')
+print_matrix(b)
+t = v1_n2(b)
 
-# write_text('pr9\\2_КоролёвНикита_УБ-23_vivod_вариант1№2.txt', t)  
+write_matrix('pr9\\2_КоролёвНикита_УБ-23_vivod_вариант1№2.txt', t)  
