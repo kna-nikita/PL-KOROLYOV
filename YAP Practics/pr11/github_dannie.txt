@@ -1,0 +1,6 @@
+'company': MOGU
+'create_at': 2015-12-07T09:32:18Z
+'email': None
+'id': 16187777
+'name': Ori
+'url': https://api.github.com/users/origin
